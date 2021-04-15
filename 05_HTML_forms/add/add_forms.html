@@ -11,9 +11,9 @@
     <form action="http://sc.it-academy.by/fe/form.php" name="reg" method="POST">
         <fieldset>
             <legend>Личные данные</legend>
-            <input type="text" name="surname" placeholder="Фамилия" size="25" required autofocus><br>
-            <input type="text" name="name" placeholder="Имя" size="20" required><br>
-            <input type="text" name="patronymic" placeholder="Отчество" size="24" required>
+            <input type="text" name="surname" placeholder="Фамилия" size="25" required autofocus pattern="[А-Яа-яЁё]"><br>
+            <input type="text" name="name" placeholder="Имя" size="20" required pattern="[А-Яа-яЁё]"><br>
+            <input type="text" name="patronymic" placeholder="Отчество" size="24" required pattern="[А-Яа-яЁё]">
             <fieldset>
                 <legend>Паспортные данные</legend>
                 <input type="text" name="serial" placeholder="AA" pattern="[A-Z]{2}" required>
