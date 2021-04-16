@@ -1,0 +1,30 @@
+p {
+    margin: 0;
+    padding: 5px;
+}
+.container {
+    background-color: orangered;
+    text-align: justify;
+}
+.navigation {
+    float: left;
+    width: 15em;
+    background-color: grey;
+}
+.blog_1 {
+    width: auto;
+    background-color: lightseagreen;
+    margin-bottom: 0.2em;
+    margin-left: 15em;
+}
+.blog_2 {
+    background-color: lime;
+    margin-bottom: 0.2em;
+    margin-left: 15em;
+}
+.footer {
+    width: auto;
+    height: auto;
+    clear: both;
+    background-color: palegoldenrod;
+}

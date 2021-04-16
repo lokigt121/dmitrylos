@@ -1,0 +1,29 @@
+.kr3 {
+    background-image: url('cards.png'); 
+    background-repeat: no-repeat; 
+    background-position: -145px -200px; 
+    width: 140px; 
+    height: 187px; 
+    float: left; 
+    border-radius: 17px;
+}
+.ch5 {
+    background-image: url('cards.png'); 
+    background-repeat: no-repeat; 
+    background-position: -435px -599px; 
+    width: 140px; 
+    height: 187px; 
+    float: left;
+    margin-left: -70px; 
+    border-radius: 17px;
+}
+.b9 {
+    background-image: url('cards.png'); 
+    background-repeat: no-repeat; 
+    background-position: -290px -1395px; 
+    width: 140px; 
+    height: 187px; 
+    float: left; 
+    margin-left: -70px; 
+    border-radius: 17px;
+}
