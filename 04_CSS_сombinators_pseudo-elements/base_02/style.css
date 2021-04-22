@@ -1,0 +1,25 @@
+table, td, th{
+    border-collapse: collapse;
+    border:1px dotted #534744;
+}
+caption {
+    text-transform: uppercase;
+    caption-side: bottom;
+}
+tr:nth-child(odd){
+    background-color: lightgray;
+}
+tr:first-child {
+    background-color: dimgray;
+}
+tr > th:first-child {
+    text-align: left;
+}
+tr:first-child > th:first-child{
+    text-align: center;
+}
+td:hover, th:hover {
+    cursor: pointer;
+    font-style: italic;
+}
+

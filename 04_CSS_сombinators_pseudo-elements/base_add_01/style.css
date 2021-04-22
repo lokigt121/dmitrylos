@@ -1,0 +1,24 @@
+a[target="_blank"]:before {
+    content: url("./images/extref.png");
+}
+li {
+    list-style: url(./images/logo-list.jpg);
+}
+p > a[href$=".doc"]:after{
+    content: url("./images/logo-doc.jpg");
+}
+p > a[href$=".pdf"]:after{
+    content: url("./images/logo-pdf.png");
+}
+p > a[href$=".zip"]:after{
+    content: url("./images/logo-zip.gif");
+}
+li > a[href$=".doc"]:hover:after {
+    content: url("./images/logo-doc.jpg");
+}
+li > a[href$=".pdf"]:hover:after {
+    content: url("./images/logo-pdf.png");
+}
+li > a[href$=".zip"]:hover:after {
+    content: url("./images/logo-zip.gif");
+}
